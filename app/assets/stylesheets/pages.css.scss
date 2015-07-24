@@ -58,3 +58,31 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover {
     color: #fff;
     transition: background-color .7s;
 }
+
+.home .jumbotron {
+    background: url("https://40.media.tumblr.com/35f2a9335d8f734a0b2d353e2390abce/tumblr_nrvbscVgji1ubupxao1_1280.jpg") center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+.highlight{
+
+background-color:#eaeff4;
+color:#000;
+padding:0 10px 0
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li {
+    display: inline;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100px;
+    height: 100px;
+    margin: 0 20px 0 0;
+}
