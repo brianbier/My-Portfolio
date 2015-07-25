@@ -176,3 +176,15 @@ Potential links but not ready at the moment. Need to discuss further....
 }
 
 *******************/
+
+.banner { 
+position: relative; 
+overflow: auto; 
+}
+.banner li {
+ list-style: none;
+ }
+.banner ul li { 
+
+float: left; 
+}
