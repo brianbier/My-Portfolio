@@ -176,15 +176,34 @@ Potential links but not ready at the moment. Need to discuss further....
 }
 
 *******************/
+/***************************
 
-.banner { 
-position: relative; 
-overflow: auto; 
-}
-.banner li {
- list-style: none;
- }
-.banner ul li { 
+About page Styling
+***************************/
 
-float: left; 
+.about .thumbnail {
+    max-height: 400px;
 }
+.col-md-6 h2 {
+    color: #000;
+}
+
+.about h2 {
+    margin: 0 0 40px;
+}
+
+.contact .row {
+    margin: 80px 0 0;
+}
+
+
+.highlight {
+    background-color: #eaeff4;
+    color: #000;
+    padding: 0 10px 0;
+}
+
+.right {
+    float: right;
+}
+
