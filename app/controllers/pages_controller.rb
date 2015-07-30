@@ -9,8 +9,4 @@ class PagesController < ApplicationController
   def about
   end
   
-  def contact
-  	@signup = Signup.new
-  end
-  
 end

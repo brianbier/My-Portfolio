@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   root 'pages#welcome'
   get '/portfolio' => 'pages#portfolio'
   get '/about' => 'pages#about'
-  get '/contact' => 'pages#contact'
-  post '/contact' => 'pages#contact'
+  get '/contact' => 'signups#contact'
+  post '/contact' => 'signups#contact'
   resources :pages
   resources :signups
 
