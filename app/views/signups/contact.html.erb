@@ -1,0 +1,18 @@
+<div class="main contact">
+        <div class="container">
+            <h1 id="contact-header">General Information</h1>
+            <div class="col-md-5">
+                <p>I enjoy learning from mistakes and feedback is always welcome. I am always available to speak to future web developers as well as current web developers. If you have any questions, please don't hesitate to contact me!</p>
+                <p>If you are interested in creating your own website, feel free to contact me. Below</p>
+            </div>
+            <div class="col-md-4">
+                <%= form_for(@signup) do |f| %>
+                <%= f.text_field :firstname, :placeholder => "Firstname" %><br>
+                <%= f.text_field :lastname, :placeholder => "Lastname" %><br>
+                <%= f.email_field :email, :placeholder => "email" %><br>
+                <%= f.text_field :message, :placeholder => "Your message" %><br>
+                <%= f.submit "Signup" %><br>
+            <% end %>     
+            </div>
+        </div>
+    </div>
