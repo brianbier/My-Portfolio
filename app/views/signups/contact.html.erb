@@ -5,8 +5,8 @@
              <p>It's been said a million times before but its worth saying again. Designing and building something for yourself is way way way way harder than doing it for someone else. If you have any questions, advice, job opportunities or just want to talk about web developement, please don't hesitate to contact me via the form below.</p>
                 <div class="form">
                     <%= form_for(@signup) do |f| %>
-                    <%= f.text_field :firstname, :placeholder => "Firstname",class: "form-control" %><br>
-                    <%= f.text_field :lastname, :placeholder => "Lastname",class: "form-control" %><br>
+                    <%= f.text_field :firstname, :placeholder => "First name",class: "form-control" %><br>
+                    <%= f.text_field :lastname, :placeholder => "Last name",class: "form-control" %><br>
                     <%= f.email_field :email, :placeholder => "Email",class: "form-control" %><br>
                     <%= f.text_field :message, :placeholder => "Message",class: "form-control", id:"form-message" %><br>
                     <%= f.submit "Signup", class: "contact-btn" %><br>
