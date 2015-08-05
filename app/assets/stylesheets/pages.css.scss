@@ -212,3 +212,34 @@ About page Styling
     font-size: 48px;
     margin-bottom: 25px;
 }
+.form-control{
+    border-radius:0px;
+}
+.form{
+    width: 400px;
+
+}
+#form-message{
+    padding-top:10px;
+    padding-right:80px;
+    padding-bottom:100px;
+
+    
+
+}
+
+.contact-btn{
+    background-color: #000;
+    color:#fff;
+    padding-top:15px;
+    padding-bottom:15px;
+    border:20px;
+    width: 130px;
+}
+.contact-btn:hover{
+        background-color: #cc6cff;
+    color: #fff;
+    transition: background-color .5s;
+
+}
+
